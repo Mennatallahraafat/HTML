@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration <Form:post></Form:post></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      
+        <nav class="Menu">
+
+           <nav class="logo">
+        <img src="./ITI_logo.png" width="200px" height="150px" >
+           </nav>
+     <nav class="list">
+        <ul>
+           <a href="./page.html" ><li>Home</li></a>
+           <a href="./Demo.html"><li>Road Map</li></a>
+           <a href="./registration.html"><li>Registration Form</li></a>
+           <a href="https://www.iti.gov.eg/iti/home" target="_blank"><li> Contact </li></a>
+       </ul>
+     </nav>
+     </nav>
+     </header>
+     
+
+    <table border="1" class="reg">
+        <form >
+        <tr>
+            <th colspan="2"><h1 style="text-align:left; color: rgb(40, 126, 40);"> Register - Create Account</h1> 
+                <h2 style="border-style: dotted; border-color: rgb(166, 201, 187); background-color: rgb(204, 243, 227) ; text-align: left;">Field marked &#8727; are compulsory fields</h2></th>
+            </tr>
+            <tr>
+            <td class="i">Your Name &#8727;</td >
+                <td><input type="text" name="yname" id="yname" size="50px"  required ></td>
+        </tr>
+        <tr>
+            <td class="i">E-mail ID &#8727;</td >
+                <td><input type="email" name="email" id="email" size="50px"  required></td>
+        </tr>
+        <tr>
+            <td class="i">Alternative E-mail ID</td >
+                <td><input type="email" name="email" id="email2" size="50px"></td>
+        </tr>
+        <tr>
+            <td class="i">Your Phone</td >
+                <td><input type="text" name="phone" id="phone" size="50px"></td>
+        </tr>
+        <tr>
+            <td class="i">Mobile Phone</td >
+                <td><p style="text-align: left;">Country Code - City Code - Phone Number</p>
+                    <input type="text" name="country code" id="phone" size="9px"> -
+                <input type="text" name="city code" id="cit" size="9px"> -
+            <input type="text" name="phone" id="num" size="15px"></td>
+        </tr>
+        <tr>
+            <td class="i">Your Postal Adress &#8727;</td >
+                <td><textarea name="tarea" id="" cols="47" rows="5" required></textarea></td>
+        </tr>
+        <tr>
+            <td class="i">Country &#8727;</td >
+               <td>
+                 <div class="select" >
+                    <select style="width: 370px;"  required>
+                    <option value="0">---Select One ---</option>
+                    <option value="1">Alexandria</option>
+                    <option value="2">Banha</option>
+                    <option value="3">Cairo</option>
+                    <option value="4">Fayoum</option>
+                    <option value="5">Sohag</option>
+                    <option value="6">Giza</option>
+                    <option value="7">Aswan</option>
+                    <option value="8">Luxor</option>
+
+                 </div>
+               </td> 
+           
+        </tr>
+        <tr>
+            <td class="i">Your Password &#8727;</td >
+                <td><input type="password" name="pas" id="pas" size="50px" required></td>
+        </tr>
+        <tr>
+            <td class="i">Re_Enter Password &#8727;</td >
+                <td><input type="password" name="pas" id="pas2" size="50px" required></td>
+        </tr>
+        <tr>
+            <th colspan="2"> <input type="checkbox" id="cb" required><p style="display: inline;">I accept the</p> <a href="https://www.iti.gov.eg/iti/home">Terms of use</a></th>
+            </tr>
+            <tr><th colspan="2"><div class="btn">
+                <button type="submit">Continue</button>
+                <button type="reset">Reset</button>
+            </div></th>  
+        </tr>
+</form>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <footer>
+        <hr>
+<p>Copy Right 2023 by Mennatallah Raafat &reg; .All Rights Reserved </p> 
+     </footer>
+</body>
+</html>
