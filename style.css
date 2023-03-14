@@ -3,7 +3,9 @@ h1{ text-align: center;
 
 footer{ text-align: center;}
 
-p{ text-align: center;}
+p{
+    display: inline;
+}
 header .Menu{
     background-color: rgb(51, 48, 48);
     height: 150px;
@@ -94,6 +96,10 @@ table, th, td, .i {
   .btn{
    align-self: center;
    margin-bottom: 10px;
+  }
+  span{
+    color: red;
+    
   }
   
 

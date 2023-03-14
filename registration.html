@@ -27,18 +27,18 @@
      </header>
      
 
-    <table border="1" class="reg">
-        <form >
+    <table  class="reg">
+        <form action="./database.php" method="post">
         <tr>
             <th colspan="2"><h1 style="text-align:left; color: rgb(40, 126, 40);"> Register - Create Account</h1> 
-                <h2 style="border-style: dotted; border-color: rgb(166, 201, 187); background-color: rgb(204, 243, 227) ; text-align: left;">Field marked &#8727; are compulsory fields</h2></th>
+                <h2 style="border-style: dotted; border-color: rgb(166, 201, 187); background-color: rgb(204, 243, 227) ; text-align: left;">Field marked<span style="color: red;">&#8727;</span> are compulsory fields </h2></th>
             </tr>
             <tr>
-            <td class="i">Your Name &#8727;</td >
+            <td class="i"><span>&#8727;</span>Your Name</td >
                 <td><input type="text" name="yname" id="yname" size="50px"  required ></td>
         </tr>
         <tr>
-            <td class="i">E-mail ID &#8727;</td >
+            <td class="i"><span>&#8727;</span>E-mail ID </td >
                 <td><input type="email" name="email" id="email" size="50px"  required></td>
         </tr>
         <tr>
@@ -51,21 +51,21 @@
         </tr>
         <tr>
             <td class="i">Mobile Phone</td >
-                <td><p style="text-align: left;">Country Code - City Code - Phone Number</p>
+                <td><p style="text-align: left; display: block;" >Country Code - City Code - Phone Number</p>
                     <input type="text" name="country code" id="phone" size="9px"> -
                 <input type="text" name="city code" id="cit" size="9px"> -
             <input type="text" name="phone" id="num" size="15px"></td>
         </tr>
         <tr>
-            <td class="i">Your Postal Adress &#8727;</td >
+            <td class="i"><span>&#8727;</span>Your Postal Adress </td >
                 <td><textarea name="tarea" id="" cols="47" rows="5" required></textarea></td>
         </tr>
         <tr>
-            <td class="i">Country &#8727;</td >
+            <td class="i"><span>&#8727;</span>Country </td >
                <td>
                  <div class="select" >
                     <select style="width: 370px;"  required>
-                    <option value="0">---Select One ---</option>
+                    <option value="">--------------------------------select one--------------------------------</option>
                     <option value="1">Alexandria</option>
                     <option value="2">Banha</option>
                     <option value="3">Cairo</option>
@@ -80,11 +80,11 @@
            
         </tr>
         <tr>
-            <td class="i">Your Password &#8727;</td >
+            <td class="i"><span>&#8727;</span>Your Password </td >
                 <td><input type="password" name="pas" id="pas" size="50px" required></td>
         </tr>
         <tr>
-            <td class="i">Re_Enter Password &#8727;</td >
+            <td class="i"><span>&#8727;</span>Re_Enter Password </td >
                 <td><input type="password" name="pas" id="pas2" size="50px" required></td>
         </tr>
         <tr>
